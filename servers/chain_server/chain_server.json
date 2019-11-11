@@ -1,0 +1,128 @@
+{
+  "log": {
+    "file": "log.log",
+    "level": "debug"
+  },
+  "dots": [
+    {
+      "metaData": {
+        "typeId": "0c73cc80-ed3c-4dc9-8d4f-bcaa4dad29cd",
+        "name": "eth connect"
+      },
+      "lives": [
+        {
+          "liveId": "0c73cc80-ed3c-4dc9-8d4f-bcaa4dad29cd",
+          "json": {
+            "#": "//./pipe/geth.ipc",
+            "urlEth": "http://127.0.0.1:8545",
+            "chainId": 16
+          }
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "typeId": "872217f5-1fd4-4696-bcfd-ab99b6b321fd",
+        "name": "scan"
+      },
+      "lives": [
+        {
+          "liveId": "872217f5-1fd4-4696-bcfd-ab99b6b321fd",
+          "relyLives": {
+            "ScanCall": "3cca7d6c-779f-484a-b2fa-c56f8ef9eed2"
+          }
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "typeId": "3cca7d6c-779f-484a-b2fa-c56f8ef9eed2",
+        "name": "do tx"
+      },
+      "lives": [
+        {
+          "liveId": "3cca7d6c-779f-484a-b2fa-c56f8ef9eed2",
+          "json": {
+            "erc20": "0xaa638fcA332190b63Be1605bAeFDE1df0b3b031e",
+            "erc721": "0x"
+          }
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "typeId": "86dc2b53-d8bf-46fb-b1d4-384d08191cd4",
+        "name": "erc20"
+      },
+      "lives": [
+        {
+          "liveId": "86dc2b53-d8bf-46fb-b1d4-384d08191cd4",
+          "json": {
+            "contract": "0xaa638fcA332190b63Be1605bAeFDE1df0b3b031e"
+          }
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "typeId": "a91ae735-288d-4afd-b549-b78c1d90a91b",
+        "name": "erc721"
+      },
+      "lives": [
+        {
+          "liveId": "a91ae735-288d-4afd-b549-b78c1d90a91b",
+          "json": {
+            "contract": "0x"
+          }
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "typeId": "b9124432-a9a1-4b55-ba83-69a94d987a7f",
+        "name": "data"
+      },
+      "lives": [
+        {
+          "liveId": "b9124432-a9a1-4b55-ba83-69a94d987a7f",
+          "json": {
+            "dbParameters": "root:123456@/citychain?charset=utf8mb4&parseTime=True"
+          }
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "typeId": "6c5acd0f-6135-4a9c-a88b-ff7734c56a12",
+        "name": "api service"
+      },
+      "lives": [
+        {
+          "liveId": "6c5acd0f-6135-4a9c-a88b-ff7734c56a12",
+          "json": {
+            "addrGame2Chain": "127.0.0.1:8899",
+            "tls": {
+              "pem": "",
+              "key": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "metaData": {
+        "typeId": "65533eac-664b-45e7-996c-54f1b6a94a9e",
+        "name": "chain 2 game"
+      },
+      "lives": [
+        {
+          "liveId": "65533eac-664b-45e7-996c-54f1b6a94a9e",
+          "json": {
+            "url": "htts://",
+            "intervalRetry": 30
+          }
+        }
+      ]
+    }
+  ]
+}
